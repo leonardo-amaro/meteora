@@ -30,7 +30,11 @@ const Produtos = () => {
       <Titulo>Produtos que estão bombando!</Titulo>
       <div className="container row mx-auto">
         {produtos.map((produto) => (
-          <Produto key={produto.id} {...produto} />
+          <Produto
+            key={produto.id}
+            {...produto}
+            adicionarProduto={adicionarProduto}
+          />
         ))}
       </div>
     </section>

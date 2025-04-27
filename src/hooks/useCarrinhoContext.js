@@ -70,5 +70,7 @@ export const useCarrinhoContext = () => {
     adicionarProduto,
     removerProduto,
     removerProdutoCarrinho,
+    quantidade,
+    valorTotal,
   };
 };
